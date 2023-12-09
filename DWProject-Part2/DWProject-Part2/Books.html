@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Online Library | Books</title>
+</head>
+<body class="body-style">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">ONLINE LIBRARY</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Books.html">Books</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Borrowed.html">Borrowed</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Articles.html">Articles</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="About_Us.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contact_Us.html">Contact Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Sign In
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Sign_Up.html">Sign Up</a></li>
+                  <li><a class="dropdown-item" href="Log_In.html">Log In</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div style="text-align: center;margin-top: 50px;">
+        <div style="font-size:52px; padding: 0 15px 0 15px; line-height: 1;">
+            <h1>WELCOME TO ONLINE LIBRARY</h1>
+        </div>
+        <div class="color4" style="color:#214146;font-weight:400; padding:4px 0 15px 0;font-style: italic;">
+         The world's largest ebook library.
+        </div>
+      </div>
+      
+      <div class="collection">
+          <h1 class="text">SEARCH</h1>
+        <div class="collection-inner">
+          <input class="field" type="text" maxlength="200" id="searchField" value="" placeholder="Search">
+          <button class="buttons" type="submit">
+            <span class="hidden-xs">Search</span>
+          </button>
+        </div>
+        <p>Search here for titles that you want information about.</p>
+        <h3>
+          MOST POPULAR
+        </h3>
+        <hr>
+        <div class="container-thumbnails">
+          <img src="./images/image4.jpg" class=".bd-placeholder-img" alt="...">
+          <img src="./images/image5.jpg" class=".bd-placeholder-img" alt="...">
+          <img src="./images/image6.jpg" class=".bd-placeholder-img" alt="...">
+        </div>
+      </div>
+
+     <p class="lastP">If you are Logged In check-out <a href="Borrowed.html">Borrowed</a> section.</p>
+
+      <script src="bootstrap/js/bootstrap.bundle.js"></script>
+      <script src="script.js"></script>
+</body>
+</html>
